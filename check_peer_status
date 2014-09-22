@@ -146,10 +146,10 @@ try:
 			
                         elif (string.find(status,'UNKNOWN') >0):
                                 latency = extract(status)
-								print "ASTERISK_PEER_RESPONSE_TIME "+latency
+				print "ASTERISK_PEER_RESPONSE_TIME "+latency
 
                         elif (string.find(status,'unmonitored') >0):
-								print "ASTERISK_PEER_RESPONSE_TIME "
+				print "ASTERISK_PEER_RESPONSE_TIME "
 			else:
 				print status
 				sys.exit(2)
